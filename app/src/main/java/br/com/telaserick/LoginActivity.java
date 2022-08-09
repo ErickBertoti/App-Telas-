@@ -15,24 +15,22 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        final Button button3 = findViewById(R.id.button3);
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
+       final Button button3 = findViewById(R.id.button3);
+       button3.setOnClickListener(new View.OnClickListener() {
+           @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), CamisasActivity.class);
                 startActivity(intent);
             }
         });
 
-        Button button2 = findViewById(R.id.button2);
+       Button button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
+           @Override
+           public void onClick(View view) {
+                          finish();
             }
         });
-
-
 
     }
 

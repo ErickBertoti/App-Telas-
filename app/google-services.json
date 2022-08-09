@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642721854143",
+    "project_id": "telaserick-42c0f",
+    "storage_bucket": "telaserick-42c0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642721854143:android:ec7eb3f2a2a8f58cfe4c0a",
+        "android_client_info": {
+          "package_name": "br.com.telaserick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642721854143-2dkba3lrh54cup7ispgdsnlaegmvk5qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyjvhJoMhmRqk9nJGnxcy2U6QtZlFvB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642721854143-2dkba3lrh54cup7ispgdsnlaegmvk5qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

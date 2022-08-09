@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/textPassword"
+        android:id="@+id/editSenha"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
@@ -26,10 +26,11 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
+        app:layout_constraintVertical_bias="0.594"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/textEmailAddress"
+        android:id="@+id/editEmail"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginTop="104dp"
@@ -47,24 +48,26 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.41"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/LoginImage"
         android:layout_width="174dp"
         android:layout_height="117dp"
         android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224"
         app:srcCompat="@drawable/login" />
 
     <TextView
         android:id="@+id/LoginTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="Login"
         android:textAppearance="@style/TextAppearance.Compat.Notification"
         android:textColor="#000000"
@@ -72,12 +75,12 @@
         android:textIsSelectable="false"
         android:textSize="60sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/LoginImage"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.089" />
 
     <Button
         android:id="@+id/button2"
